@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6847F572204A70BF00D34D0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6847F571204A70BF00D34D0E /* AppDelegate.swift */; };
 		6847F574204A70BF00D34D0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6847F573204A70BF00D34D0E /* ViewController.swift */; };
-		6847F577204A70BF00D34D0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6847F575204A70BF00D34D0E /* Main.storyboard */; };
 		6847F579204A70BF00D34D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6847F578204A70BF00D34D0E /* Assets.xcassets */; };
 		6847F57C204A70BF00D34D0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6847F57A204A70BF00D34D0E /* LaunchScreen.storyboard */; };
 		6847F587204A70C000D34D0E /* XylophoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6847F586204A70C000D34D0E /* XylophoneTests.swift */; };
@@ -37,7 +36,6 @@
 		6847F56E204A70BF00D34D0E /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6847F571204A70BF00D34D0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6847F573204A70BF00D34D0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6847F576204A70BF00D34D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6847F578204A70BF00D34D0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6847F57B204A70BF00D34D0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6847F57D204A70BF00D34D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,11 +95,9 @@
 		6847F570204A70BF00D34D0E /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
+				6847F59F204A70EF00D34D0E /* Resources */,
+				6847F5A0204A738700D34D0E /* Classes */,
 				6847F571204A70BF00D34D0E /* AppDelegate.swift */,
-				6847F573204A70BF00D34D0E /* ViewController.swift */,
-				6847F575204A70BF00D34D0E /* Main.storyboard */,
-				6847F578204A70BF00D34D0E /* Assets.xcassets */,
-				6847F57A204A70BF00D34D0E /* LaunchScreen.storyboard */,
 				6847F57D204A70BF00D34D0E /* Info.plist */,
 			);
 			path = Xylophone;
@@ -123,6 +119,47 @@
 				6847F593204A70C000D34D0E /* Info.plist */,
 			);
 			path = XylophoneUITests;
+			sourceTree = "<group>";
+		};
+		6847F59F204A70EF00D34D0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6847F578204A70BF00D34D0E /* Assets.xcassets */,
+				6847F57A204A70BF00D34D0E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6847F5A0204A738700D34D0E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6847F5A3204A73A300D34D0E /* Views */,
+				6847F5A2204A739C00D34D0E /* Controllers */,
+				6847F5A1204A739400D34D0E /* Extensions */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6847F5A1204A739400D34D0E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6847F5A2204A739C00D34D0E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6847F573204A70BF00D34D0E /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6847F5A3204A73A300D34D0E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +271,6 @@
 			files = (
 				6847F57C204A70BF00D34D0E /* LaunchScreen.storyboard in Resources */,
 				6847F579204A70BF00D34D0E /* Assets.xcassets in Resources */,
-				6847F577204A70BF00D34D0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6847F575204A70BF00D34D0E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6847F576204A70BF00D34D0E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6847F57A204A70BF00D34D0E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -363,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -429,11 +457,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDFA67X5D5;
 				INFOPLIST_FILE = Xylophone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.mstk.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +473,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDFA67X5D5;
 				INFOPLIST_FILE = Xylophone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.mstk.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
