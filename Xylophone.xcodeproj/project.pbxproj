@@ -14,6 +14,13 @@
 		6847F587204A70C000D34D0E /* XylophoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6847F586204A70C000D34D0E /* XylophoneTests.swift */; };
 		6847F592204A70C000D34D0E /* XylophoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6847F591204A70C000D34D0E /* XylophoneUITests.swift */; };
 		6847F5A5204BC8CA00D34D0E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6847F5A4204BC8CA00D34D0E /* UIView.swift */; };
+		6847F5A8204BCBE900D34D0E /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6847F5A7204BCBE900D34D0E /* note1.wav */; };
+		6847F5AF204BCBF800D34D0E /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6847F5A9204BCBF700D34D0E /* note7.wav */; };
+		6847F5B0204BCBF800D34D0E /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6847F5AA204BCBF800D34D0E /* note2.wav */; };
+		6847F5B1204BCBF800D34D0E /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6847F5AB204BCBF800D34D0E /* note6.wav */; };
+		6847F5B2204BCBF800D34D0E /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6847F5AC204BCBF800D34D0E /* note4.wav */; };
+		6847F5B3204BCBF800D34D0E /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6847F5AD204BCBF800D34D0E /* note3.wav */; };
+		6847F5B4204BCBF800D34D0E /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6847F5AE204BCBF800D34D0E /* note5.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		6847F591204A70C000D34D0E /* XylophoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneUITests.swift; sourceTree = "<group>"; };
 		6847F593204A70C000D34D0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6847F5A4204BC8CA00D34D0E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		6847F5A7204BCBE900D34D0E /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		6847F5A9204BCBF700D34D0E /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		6847F5AA204BCBF800D34D0E /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		6847F5AB204BCBF800D34D0E /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		6847F5AC204BCBF800D34D0E /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		6847F5AD204BCBF800D34D0E /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		6847F5AE204BCBF800D34D0E /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				6847F578204A70BF00D34D0E /* Assets.xcassets */,
+				6847F5A6204BCBD000D34D0E /* Sound Files */,
 				6847F57A204A70BF00D34D0E /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
@@ -163,6 +178,20 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		6847F5A6204BCBD000D34D0E /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				6847F5A7204BCBE900D34D0E /* note1.wav */,
+				6847F5AA204BCBF800D34D0E /* note2.wav */,
+				6847F5AD204BCBF800D34D0E /* note3.wav */,
+				6847F5AC204BCBF800D34D0E /* note4.wav */,
+				6847F5AE204BCBF800D34D0E /* note5.wav */,
+				6847F5AB204BCBF800D34D0E /* note6.wav */,
+				6847F5A9204BCBF700D34D0E /* note7.wav */,
+			);
+			path = "Sound Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +301,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6847F5B4204BCBF800D34D0E /* note5.wav in Resources */,
+				6847F5A8204BCBE900D34D0E /* note1.wav in Resources */,
+				6847F5B0204BCBF800D34D0E /* note2.wav in Resources */,
+				6847F5B2204BCBF800D34D0E /* note4.wav in Resources */,
 				6847F57C204A70BF00D34D0E /* LaunchScreen.storyboard in Resources */,
+				6847F5B1204BCBF800D34D0E /* note6.wav in Resources */,
+				6847F5AF204BCBF800D34D0E /* note7.wav in Resources */,
+				6847F5B3204BCBF800D34D0E /* note3.wav in Resources */,
 				6847F579204A70BF00D34D0E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
