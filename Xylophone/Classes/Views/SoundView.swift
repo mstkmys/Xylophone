@@ -14,7 +14,8 @@ class SoundView: UIView {
         
         let button = UIButton()
         button.backgroundColor = .red
-        button.addTarget(self, action: #selector(ViewController.redButtonTapped(_:)), for: .touchUpInside)
+        button.tag = 1
+        button.addTarget(self, action: #selector(ViewController.noteButtonTapped(_:)), for: .touchUpInside)
         
         return button
         
@@ -24,7 +25,8 @@ class SoundView: UIView {
        
         let button = UIButton()
         button.backgroundColor = .orange
-        button.addTarget(self, action: #selector(ViewController.orageButtonTapped(_:)), for: .touchUpInside)
+        button.tag = 2
+        button.addTarget(self, action: #selector(ViewController.noteButtonTapped(_:)), for: .touchUpInside)
         
         return button
         
@@ -34,7 +36,8 @@ class SoundView: UIView {
         
         let button = UIButton()
         button.backgroundColor = .yellow
-        button.addTarget(self, action: #selector(ViewController.yellowButtonTapped(_:)), for: .touchUpInside)
+        button.tag = 3
+        button.addTarget(self, action: #selector(ViewController.noteButtonTapped(_:)), for: .touchUpInside)
         
         return button
         
@@ -44,7 +47,8 @@ class SoundView: UIView {
        
         let button = UIButton()
         button.backgroundColor = .green
-        button.addTarget(self, action: #selector(ViewController.greenButtonTapped(_:)), for: .touchUpInside)
+        button.tag = 4
+        button.addTarget(self, action: #selector(ViewController.noteButtonTapped(_:)), for: .touchUpInside)
         
         return button
         
@@ -54,7 +58,8 @@ class SoundView: UIView {
        
         let button = UIButton()
         button.backgroundColor = .blue
-        button.addTarget(self, action: #selector(ViewController.blueButtonTapped(_:)), for: .touchUpInside)
+        button.tag = 5
+        button.addTarget(self, action: #selector(ViewController.noteButtonTapped(_:)), for: .touchUpInside)
         
         return button
         
@@ -64,7 +69,8 @@ class SoundView: UIView {
        
         let button = UIButton()
         button.backgroundColor = .purple
-        button.addTarget(self, action: #selector(ViewController.purpleButtonTapped(_:)), for: .touchUpInside)
+        button.tag = 6
+        button.addTarget(self, action: #selector(ViewController.noteButtonTapped(_:)), for: .touchUpInside)
         
         return button
         
@@ -74,7 +80,8 @@ class SoundView: UIView {
        
         let button = UIButton()
         button.backgroundColor = .black
-        button.addTarget(self, action: #selector(ViewController.blackButtonTapped(_:)), for: .touchUpInside)
+        button.tag = 7
+        button.addTarget(self, action: #selector(ViewController.noteButtonTapped(_:)), for: .touchUpInside)
         
         return button
         

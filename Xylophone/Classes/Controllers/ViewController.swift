@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     let soundView: SoundView = {
        
@@ -18,6 +19,8 @@ class ViewController: UIViewController {
         return soundView
         
     }()
+    
+    var audioPlayer: AVAudioPlayer!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,35 +31,25 @@ class ViewController: UIViewController {
     
     // MARK: Actions
     
-    @objc func redButtonTapped(_ sender: UIButton) {
+    @objc func noteButtonTapped(_ sender: UIButton) {
         
-    }
-    
-    @objc func orageButtonTapped(_ sender: UIButton) {
+        let soundURL = Bundle.main.url(forResource: "note\(sender.tag)", withExtension: "wav")
         
-    }
-    
-    @objc func yellowButtonTapped(_ sender: UIButton) {
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
+        }
+        catch {
+            print("Error: \(error)")
+        }
         
-    }
-    
-    @objc func greenButtonTapped(_ sender: UIButton) {
-        
-    }
-    
-    @objc func blueButtonTapped(_ sender: UIButton) {
-        
-    }
-    
-    @objc func purpleButtonTapped(_ sender: UIButton) {
-        
-    }
-    
-    @objc func blackButtonTapped(_ sender: UIButton) {
+        audioPlayer.play()
         
     }
 
 }
+
+
+
 
 
 
