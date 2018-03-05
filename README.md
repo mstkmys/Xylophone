@@ -6,7 +6,15 @@
 )](https://developer.apple.com/swift)
 [![Twitter](https://img.shields.io/badge/twitter-@mm_manome-blue.svg?style=flat)](https://twitter.com/mm_manome)
 
-Sounds App.
+![xylophone](https://user-images.githubusercontent.com/12792235/36960702-85a41c24-208b-11e8-9428-35223bba9745.png)
+
+ Red    「ド」
+ Orange 「レ」
+ Yellow 「ミ」
+ Green  「ファ」
+ Blue   「ソ」
+ Purple 「ラ」
+ Black  「シ」
 
 ## Author
 **Masataka Miyoshi**
